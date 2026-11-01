@@ -1,0 +1,26 @@
+# 保存网页得到的试卷原料
+*.html
+*.htm
+*_files/
+page_save/
+
+# 生成的成品与中间产物
+模考_*.pdf
+作答对照.tsv
+mat_*.png
+_xport.html
+_export.html
+_edge/
+_edge_tmp/
+_edge_tmp*/
+
+# 抓取下来的结构化数据（可能含题目原文与答案）
+*.json
+raw_page.txt
+原卷_文字版.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
